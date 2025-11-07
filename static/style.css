@@ -1,0 +1,79 @@
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color:rgb(155, 140, 250);
+}
+
+.text-purple {
+  color: purple;
+}
+
+.btn-purple {
+  background-color: purple;
+  color: white;
+}
+
+.btn-purple:hover {
+  background-color: rgb(209, 3, 209);
+  color: white;
+}
+
+.text-purple {
+  color: rgb(139, 1, 139);
+}
+
+.text-purple:hover { 
+  color: rgb(209, 3, 209);
+}
+
+.navbar-brand:hover {
+  color: rgb(139, 1, 139);
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.img-size {
+  height: 400px;
+  width: 400px;
+}
+
+.my-bg {
+  width: 320px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.bg-purple {
+  background: rgb(68, 24, 139);
+}
+
+.bg-blue {
+  background: rgb(12, 79, 141);
+}
+
+.bg-navy {
+  background-color: navy;
+}
+
+.testimonials{
+  padding: 5rem 0;
+}
+
+.testimonial-card{
+  width: 50%;
+}
+
+.nav-link.active {
+  color: purple !important;
+  font-weight: bold;
+  text-decoration: underline; /* Optional */
+}
