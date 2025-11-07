@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Astra Software</title>
+</head>
+<body>
+    
+    <!-- Header/Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-black navbar-dark fixed-top">
+            <div class="container">
+            
+                <!-- Logo on the left (optional) -->
+                <a href="index.html" class="navbar-brand"><i class="bi bi-code-slash"></i>Astra Software</a>
+        
+                <!-- Toggler for mobile view -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu4">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <!-- Centered navigation links and Login button -->
+                <div class="collapse navbar-collapse" id="navmenu4">
+                    <!-- Flex container for links and login button -->
+                    <div class="d-flex flex-column flex-lg-row w-100 align-items-center">
+                        <!-- Link items centered on larger screens and stacked on mobile -->
+                        <ul class="navbar-nav mx-auto flex-column flex-lg-row text-center">
+                            <li class="nav-item">
+                                <a href="#about_us" class="nav-link">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#services" class="nav-link">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#industries" class="nav-link">Industry</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#reviews" class="nav-link">Reviews</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#case_studies" class="nav-link">Case Studies</a>
+                            </li>
+                        </ul>
+        
+                        <!-- Centered Login button on mobile, right aligned on large screens -->
+                        <div class="d-flex justify-content-lg-end justify-content-center">
+                            <a href="#contact" class="btn btn-purple" data-bs-toggle="modal"
+                            data-bs-target="#contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="bg-purple text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container py-3">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img class="img-fluid" src="static/img/astrocoder.png" alt="astronaut_coding" >
+                </div>
+                <div class="col-md p-5">
+                    <h1 class="p-5">Astra Software</h1>
+                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis perferendis obcaecati corrupti nisi dolores voluptatem ad laboriosam, optio ut? Dicta molestias fugit voluptatem repellat similique rerum earum harum explicabo!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="p-5 bg-dark" id="about_us">
+        <div class="container">
+          <h1 class="text-center mb-4 text-light">About Astra Software</h1>
+          <div class="accordion accordion-flush" id="questions">
+            <!-- Item 1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                    <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-one">
+                    Where exactly are you located?
+                    </button>
+              </h2>
+              <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                    beatae fuga animi distinctio perspiciatis adipisci velit maiores
+                    totam tempora accusamus modi explicabo accusantium consequatur,
+                    praesentium rem quisquam molestias at quos vero. Officiis ad
+                    velit doloremque at. Dignissimos praesentium necessitatibus
+                    natus corrupti cum consequatur aliquam! Minima molestias iure
+                    quam distinctio velit.
+                    </div>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-two"
+                    >
+                    How much does it cost to attend?
+                    </button>
+                </h2>
+                <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                    beatae fuga animi distinctio perspiciatis adipisci velit maiores
+                    totam tempora accusamus modi explicabo accusantium consequatur,
+                    praesentium rem quisquam molestias at quos vero. Officiis ad
+                    velit doloremque at. Dignissimos praesentium necessitatibus
+                    natus corrupti cum consequatur aliquam! Minima molestias iure
+                    quam distinctio velit.
+                    </div>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-three"
+                >
+                  What do I need to Know?
+                </button>
+              </h2>
+              <div
+                id="question-three"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                  beatae fuga animi distinctio perspiciatis adipisci velit maiores
+                  totam tempora accusamus modi explicabo accusantium consequatur,
+                  praesentium rem quisquam molestias at quos vero. Officiis ad
+                  velit doloremque at. Dignissimos praesentium necessitatibus
+                  natus corrupti cum consequatur aliquam! Minima molestias iure
+                  quam distinctio velit.
+                </div>
+              </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-four"
+                >
+                  How Do I sign up?
+                </button>
+              </h2>
+              <div
+                id="question-four"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                  beatae fuga animi distinctio perspiciatis adipisci velit maiores
+                  totam tempora accusamus modi explicabo accusantium consequatur,
+                  praesentium rem quisquam molestias at quos vero. Officiis ad
+                  velit doloremque at. Dignissimos praesentium necessitatibus
+                  natus corrupti cum consequatur aliquam! Minima molestias iure
+                  quam distinctio velit.
+                </div>
+              </div>
+            </div>
+            <!-- Item 5 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-five"
+                >
+                  Do you help me find a job?
+                </button>
+              </h2>
+              <div
+                id="question-five"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                  beatae fuga animi distinctio perspiciatis adipisci velit maiores
+                  totam tempora accusamus modi explicabo accusantium consequatur,
+                  praesentium rem quisquam molestias at quos vero. Officiis ad
+                  velit doloremque at. Dignissimos praesentium necessitatibus
+                  natus corrupti cum consequatur aliquam! Minima molestias iure
+                  quam distinctio velit.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="p-5 bg-purple" id="services">
+        <div class="container">
+            
+            <div class="container text-center text-light p-3">
+                <h1>Astra Services</h1>
+            </div>
+            <div class="row text-center g-4">
+
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-code-square"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Software</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates esse assumenda rerum quibusdam atque a commodi, neque dolores in ipsum, explicabo cum velit consequuntur non unde quas obcaecati! Hic, necessitatibus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-navy text-light">
+                      <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-cpu"></i>
+                        </div>
+                        <h3 class="card-title mb-3">IoT</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, alias reprehenderit, tempora aspernatur quisquam vero vitae sit autem nostrum corrupti tenetur aliquam, quaerat facere officia libero sint voluptate ipsum cumque?
+                        </p>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-robot"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Data & AI</h3>
+                            <p class="card-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, tenetur. Deleniti voluptate id quisquam quaerat laboriosam adipisci autem maiores voluptatum aperiam consectetur, reprehenderit omnis ab, illum iste veniam asperiores corporis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center text-center g-4 my-5">
+                <div class="col-md-4">
+                    <div class="card bg-navy text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-gear-fill"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Automation</h3>
+                            <p class="card-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, tenetur. Deleniti voluptate id quisquam quaerat laboriosam adipisci autem maiores voluptatum aperiam consectetur, reprehenderit omnis ab, illum iste veniam asperiores corporis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-speedometer2"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Dashboards</h3>
+                            <p class="card-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, tenetur. Deleniti voluptate id quisquam quaerat laboriosam adipisci autem maiores voluptatum aperiam consectetur, reprehenderit omnis ab, illum iste veniam asperiores corporis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+        </div>
+    </section>
+
+    <!-- Industries -->
+    <section class="p-5 bg-dark text-light" id="industries">
+        <div class="container text-center text-light">
+            <h1>Industries</h1>
+        </div>
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img class="img-fluid" src="static/img/finance_office.png" alt="programming_fundamentals" >
+                </div>
+                <div class="col-md p-5">
+                    <h2>Finance</h2>
+                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis perferendis obcaecati corrupti nisi dolores voluptatem ad laboriosam, optio ut? Dicta molestias fugit voluptatem repellat similique rerum earum harum explicabo!</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Production & Manufacturing</h2>
+                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis perferendis obcaecati corrupti nisi dolores voluptatem ad laboriosam, optio ut? Dicta molestias fugit voluptatem repellat similique rerum earum harum explicabo!</p>
+                </div>
+                <div class="col-md">
+                    <img class="img-fluid" src="static/img/systems.png" alt="programming_fundamentals" >
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img class="img-fluid" src="static/img/warehouse.png" alt="programming_fundamentals" >
+                </div>
+                <div class="col-md p-5">
+                    <h2>Commerce & Logistics</h2>
+                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis perferendis obcaecati corrupti nisi dolores voluptatem ad laboriosam, optio ut? Dicta molestias fugit voluptatem repellat similique rerum earum harum explicabo!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="testimonials bg-purple" id="reviews">
+        <div class="container text-light text-center">
+            <h1>Reviews</h1>
+        </div>
+        <div class="container">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container py-5">
+                  <div class="row">
+                    <div class="col-12">
+                      <div
+                        class="d-flex flex-column align-items-center justify-content-center text-center"
+                      >
+                        <div class="testimonial-card">
+                          <img
+                            src="static/img/sarah.jpg"
+                            width="150px"
+                            class="rounded-circle pb-4"
+                            alt=""
+                          />
+                          <p class="text-light pb-2">
+                            Astra Software helped us create our operational system.
+                            They built it from ground up, from hardware and tools to software.
+                            Highly friendly, yet professional.
+                            We recommend them for small & medium businesses.
+                            Greate tech agency!
+                          </p>
+                          <h3 class="text-light">- Sarah M</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container py-5">
+                  <div class="row">
+                    <div class="col-12">
+                      <div
+                        class="d-flex flex-column align-items-center justify-content-center text-center"
+                      >
+                        <div class="testimonial-card">
+                          <img
+                            src="static/img/john.jpg"
+                            width="150px"
+                            class="rounded-circle pb-4"
+                            alt=""
+                          />
+                          <p class="text-light pb-2">
+                            Astra Software helped us create our operational system.
+                            They built it from ground up, from hardware and tools to software.
+                            Highly friendly, yet professional.
+                            We recommend them for small & medium businesses.
+                            Greate tech agency!
+                          </p>
+                          <h3 class="text-light">- John J</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container py-5">
+                  <div class="row">
+                    <div class="col-12">
+                      <div
+                        class="d-flex flex-column align-items-center justify-content-center text-center"
+                      >
+                        <div class="testimonial-card">
+                          <img
+                            src="static/img/tony.jpg"
+                            width="150px"
+                            class="rounded-circle pb-4"
+                            alt=""
+                          />
+                          <p class="text-light pb-2">
+                            Astra Software helped us create our operational system.
+                            They built it from ground up, from hardware and tools to software.
+                            Highly friendly, yet professional.
+                            We recommend them for small & medium businesses.
+                            Greate tech agency!
+                          </p>
+                          <h3 class="text-light">- Tony M</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </section>
+
+    <!-- Case studies -->
+    <section class="container-fluid py-5 bg-primary" id="case_studies">
+
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12">
+                    <h1 class="fs-1 fw-bold text-light text-center pb-5">
+                    Case Studies
+                    </h1>
+                    <ul
+                    class="nav nav-tabs d-flex flx-wrap justify-content-center"
+                    id="myTab"
+                    role="tablist"
+                    >
+                    <li class="nav-item" role="presentation">
+                        <button
+                        class="nav-link active me-md-3 me-1 text-dark"
+                        id="home-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#eco-tab-pane"
+                        type="button"
+                        role="tab"
+                        aria-controls="eco-tab-pane"
+                        aria-selected="true"
+                        >
+                            Eco Machinery
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button
+                        class="nav-link me-md-3 me-1 text-dark"
+                        id="vr"
+                        data-bs-toggle="tab"
+                        data-bs-target="#cola-tab-pane"
+                        type="button"
+                        role="tab"
+                        aria-controls="cola-tab-pane"
+                        aria-selected="false"
+                        >
+                        AltCola
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button
+                        class="nav-link me-md-3 me-1 text-dark"
+                        id="din-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#din-tab-pane"
+                        type="button"
+                        role="tab"
+                        aria-controls="din-tab-pane"
+                        aria-selected="false"
+                        >
+                        Dinarium
+                        </button>
+                    </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                    <div
+                        class="tab-pane fade show active"
+                        id="eco-tab-pane"
+                        role="tabpanel"
+                        aria-labelledby="eco-tab"
+                        tabindex="0"
+                    >
+                    <div class="container">
+                        <div class="row g-4 mt-5 align-items-center justify-content-between">
+                            <div class="col-md">
+                                <img class="img-fluid" src="static/img/green_factory.png" alt="payment_system" >
+                            </div>
+                            <div class="col-md p-5">
+                                <h2>Green Machinery</h2>
+                                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis perferendis obcaecati corrupti nisi dolores voluptatem ad laboriosam, optio ut? Dicta molestias fugit voluptatem repellat similique rerum earum harum explicabo!</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div
+                        class="tab-pane fade"
+                        id="cola-tab-pane"
+                        role="tabpanel"
+                        aria-labelledby="cola-tab"
+                        tabindex="0"
+                    >
+                        <div class="container">
+                            <div class="row g-4 mt-5 align-items-center justify-content-between">
+                                <div class="col-md">
+                                    <img class="img-fluid" src="static/img/commerce.png" alt="payment_system" >
+                                </div>
+                                <div class="col-md p-5">
+                                    <h2>AltCola Commerce</h2>
+                                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis perferendis obcaecati corrupti nisi dolores voluptatem ad laboriosam, optio ut? Dicta molestias fugit voluptatem repellat similique rerum earum harum explicabo!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="tab-pane fade"
+                        id="din-tab-pane"
+                        role="tabpanel"
+                        aria-labelledby="din-tab"
+                        tabindex="0"
+                    >
+                        <div class="container">
+                            <div class="row g-4 mt-5 align-items-center justify-content-between">
+                                <div class="col-md">
+                                    <img class="img-fluid" src="static/img/finance.png" alt="payment_system" >
+                                </div>
+                                <div class="col-md p-5">
+                                    <h2>Dinarium Payment System</h2>
+                                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis perferendis obcaecati corrupti nisi dolores voluptatem ad laboriosam, optio ut? Dicta molestias fugit voluptatem repellat similique rerum earum harum explicabo!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        
+    </section>
+
+    <!-- Contact Modal -->
+    <div
+    class="modal fade"
+    id="contact"
+    tabindex="-1"
+    aria-labelledby="contactLabel"
+    aria-hidden="true"
+   >
+       <div class="modal-dialog">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <h5 class="modal-title" id="contactLabel">Get a quote</h5>
+                   <button
+                       type="button"
+                       class="btn-close"
+                       data-bs-dismiss="modal"
+                       aria-label="Close"
+                   ></button>
+               </div>
+               <div class="modal-body">
+                   <p class="lead">Fill out this form and we will get back to you</p>
+                   <form>
+                       <div class="mb-3">
+                       <label for="first-name" class="col-form-label">
+                           First Name:
+                       </label>
+                       <input type="text" class="form-control" id="first-name" />
+                       </div>
+                       <div class="mb-3">
+                       <label for="last-name" class="col-form-label">Last Name:</label>
+                       <input type="text" class="form-control" id="last-name" />
+                       </div>
+                       <div class="mb-3">
+                       <label for="email" class="col-form-label">Email:</label>
+                       <input type="email" class="form-control" id="email" />
+                       </div>
+                       <div class="mb-3">
+                       <label for="phone" class="col-form-label">Phone:</label>
+                       <input type="tel" class="form-control" id="phone" />
+                       </div>
+                       <div class="mb-3">
+                        <label for="phone" class="col-form-label">Details:</label>
+                        <textarea name="details" id="" class="form-control" placeholder="Describe your needs"></textarea>
+                        </div>
+                   </form>
+               </div>
+               <div class="modal-footer">
+                   <button
+                       type="button"
+                       class="btn btn-secondary"
+                       data-bs-dismiss="modal"
+                   >
+                       Close
+                   </button>
+                   <button type="button" class="btn btn-primary">Submit</button>
+               </div>
+           </div>
+       </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-black text-white text-center position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h4 class="text-light pb-2">Socials:</h4>
+                    <a href="" class="px-2"><i class="text-purple h3 bi bi-github"></i></a>
+                    <a href="" class="px-2"><i class="text-purple h3 bi bi-linkedin"></i></a>
+                    <a href="" class="px-2"><i class="text-purple h3 bi bi-instagram"></i></a>
+                    <a href="" class="px-2"><i class="text-purple h3 bi bi-youtube"></i></a>
+                    <a href="" class="px-2"><i class="text-purple h3 bi bi-tiktok"></i></a>
+                </div>
+                <div class="col-md-6 col-sm-12 pt-4">
+                    <p class="lead">Copyright &copy; 2024 Astra Software</p>
+                    <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                        <i class="bi bi-arrow-up-circle h1 text-purple"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="static/currentpage.js"></script>
+    <script type="module" src="static/js/bootstrap.min.js"></script>
+</body>
+</html>
